@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+}
+:root {
+  --font-color: hsl(277, 65%, 22%);
+  --font-size: 20px;
+}
+body {
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+  color: var(--font-color);
+  background: hsla(197, 62%, 14%, 0.762);
+  box-sizing: border-box;
+}
+h1 {
+  box-sizing: border-box;
+  padding: 5px 0;
+  height: 50px;
+  color: silver;
+  text-shadow: 18px 25px 2.5px gray;
+  font-size: 35px;
+  background-image: linear-gradient(
+    to left,
+    rgba(25, 44, 55, 0.911),
+    rgba(60, 92, 109, 0.911),
+    rgba(25, 44, 55, 0.911)
+  );
+}
+span {
+  color: orange;
+  font-size: 30px;
+}
+.header {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+  color: silver;
+  background-image: linear-gradient(
+    to right,
+    rgba(34, 60, 74, 0.911),
+    rgba(36, 101, 136, 0.911),
+    rgba(22, 65, 88, 0.911)
+  );
+}
+.header > img {
+  clip-path: circle(50% at 50% 50%);
+  height: 250px;
+  width: 250px;
+}
+p {
+  margin-bottom: 20px;
+}
+.header h2 > img {
+  height: 65px;
+  width: 65px;
+}
+.header p {
+  font-size: 1.1em;
+}
+article {
+  box-sizing: border-box;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  background: hsla(193, 82%, 13%, 0.844);
+}
+.header section h2, h3 {
+  margin-bottom: 20px;
+}
+section {
+  margin-top: 30px;
+  text-align: justify;
+}
+.socialMedia {
+  display: flex;
+  align-items: center;
+}
+.socialMedia h2 {
+  margin-bottom: 20px;
+  margin-top: 29px;
+}
+.socialMedia a,
+img {
+  text-decoration: none;
+  width: 65px;
+}
+.socialMedia img:hover {
+  height: 4.7em;
+  width: 4.7em;
+  transition: 200ms;
+}
+.navigation {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.navigation h2 {
+  bottom: 48px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.navigation h2:hover {
+  border: solid 2px silver;
+}
+.navigation a:hover {
+  color: silver;
+  font-size: 1.1em;
+  transition: 240ms;
+}
+.navigation a {
+  color: silver;
+  text-decoration: none;
+}
+main > article {
+  display: flex;
+  justify-content: space-around;
+}
+main > article > section {
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
+main > article {
+  color: silver;
+}
+#projetos,
+#livros {
+  color: silver;
+}
+main > article > section > a > img {
+  height: 140px;
+  width: 100px;
+}
+.projetos img {
+  height: 25em;
+  width: 10em;
+}
