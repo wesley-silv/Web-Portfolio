@@ -104,10 +104,10 @@ img {
   border-radius: 10px;
 }
 .navigation h2:hover {
-  border: solid 2px silver;
+  border: solid 2px orange;
 }
 .navigation a:hover {
-  color: silver;
+  color: orange;
   font-size: 1.1em;
   transition: 240ms;
 }
