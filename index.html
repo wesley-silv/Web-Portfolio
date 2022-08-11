@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="reset.css" />
     <title>Portifólio</title>
   </head>
   <body>
@@ -12,28 +13,30 @@
     <div class="header">
       <img
         src="profile.svg"
-        alt="Imagem de um homem vestido com um terno cinza claro e sorrindo."
+        alt="Imagem de um homem branco vestido com um terno cinza claro e sorrindo."
       />
-      <section>
-        <h2><span>Wesley Da Silva</span></h2>
-        <h3>Desenvolvedor Front-end</h3>
-        <p>Linguagens</p>
+      <section class="linguagens">
+        <h2 class="linguagens_titulo"><span>Wesley Da Silva</span></h2>
+        <h3 class="linguagens_subititulo">Desenvolvedor Front-end</h3>
+        <p class="linguagens_paragrafo">Minha Stack</p>
         <img src="img-html.svg" alt="Logo html 5" />
         <img src="img-css.svg" alt="Logo css 3" />
         <img src="img-javascript.svg" alt="Logo Javascript" />
+        <img src="img-react.svg" alt="logo React" />
         <img src="img-nodejs.svg" alt="Logo do Node JS" />
       </section>
       <section>
-        <h2><span>Sobre mim</span></h2>
-        <p>
+        <h2 class="biografia_titulo"><span>Sobre mim</span></h2>
+        <p class="biografia_texto">
           Natural de São Paulo, tenho 29 anos. <br />
-          Desenvolvimento web com Html, Css, JavaScript e Node JS. <br />
+          Desenvolvimento web e mobile com Html, Css, JavaScript, React e Node
+          JS. <br />
           Exatamente no ano de 2021, tomei a decisão de fazer minha <br />
           transição de carreira para a área tecnológica, <br />
           onde tenho construido projetos sólidos estudando pela Rocketseat.
           <br />
           Desenvolver projetos e emplantar novas funcionalidas são o que mais
-          goste de fazer.
+          gosto de fazer.
           <br />
           Atualmente busco a oportunidade de poder demostrar todas as
           habilidades <br />
@@ -41,7 +44,7 @@
         </p>
       </section>
     </div>
-    <article>
+    <article class="header_nav">
       <nav class="socialMedia">
         <a href="https://github.com/wesley-silv" target="_blank" title="Github">
           <img src="github.svg" alt="" />
@@ -109,8 +112,7 @@
             métodos e classes que podem ser utilizados pela linguagem.
             <br />
             O livro esta dividio em capítulos dispostos de modo que o ensino
-            possa ser visto e aplicado gradativamento. <br />
-            Com
+            possa ser visto e aplicado gradativamente. <br />
           </p>
         </section>
         <section>
@@ -132,7 +134,7 @@
           <br />
           Há módulos que são voltados para a prática do conteúdo.
           <br />
-          Um grande auxílio junto às aulas de progração.
+          Um grande auxílio nos estudos de progração.
         </section>
         <section>
           <p>
@@ -155,7 +157,7 @@
           tem a finalidade de ensinar o desenvolvedor de códigos <br />
           há constuir, pensando não apenas no exterior, mas também no
           <br />
-          interior do software. Há módulos que são voltados para a pratica do
+          interior do software. Há módulos que são voltados para a prática do
           conteúdo.
         </section>
       </article>
@@ -193,6 +195,9 @@
       <h2 id="certificacao">
         <span>Certificação</span>
       </h2>
+      <section>
+        <img src="" alt="certificado rocketseat conectar" />
+      </section>
       <article>
         <section class="certificacao"></section>
       </article>

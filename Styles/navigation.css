@@ -1,0 +1,45 @@
+.header_nav {
+  box-sizing: border-box;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  background: hsla(193, 82%, 13%, 0.844);
+}
+
+.socialMedia {
+  display: flex;
+  align-items: center;
+}
+.socialMedia a,
+img {
+  text-decoration: none;
+  width: 65px;
+}
+.socialMedia img:hover {
+  height: 4.7em;
+  width: 4.7em;
+  transition: 200ms;
+}
+.navigation {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.navigation h2 {
+  bottom: 48px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.navigation h2:hover {
+  border: solid 2px orange;
+}
+.navigation a:hover {
+  color: orange;
+  font-size: 1.1em;
+  transition: 240ms;
+}
+.navigation a {
+  color: silver;
+  text-decoration: none;
+}

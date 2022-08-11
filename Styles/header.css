@@ -1,0 +1,72 @@
+/* Header top --------------------------------- */ 
+h1 {
+  box-sizing: border-box;
+  padding: 5px 0;
+  height: 50px;
+  color: silver;
+  text-shadow: 5px 8px 2px rgb(9, 9, 8);
+  font-size: 35px;
+  background-image: linear-gradient(
+    to left,
+    rgba(25, 44, 55, 0.911),
+    rgba(60, 92, 109, 0.911),
+    rgba(25, 44, 55, 0.911)
+  );
+}
+span {
+  color: orange;
+  font-size: 30px;
+}
+/* Section header ------------------------------- */
+.header {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1em 0;
+  color: silver;
+  font-size: 18px;
+  background-image: linear-gradient(
+    to right,
+    rgba(34, 60, 74, 0.911),
+    rgba(36, 101, 136, 0.911),
+    rgba(22, 65, 88, 0.911)
+    );
+  }
+
+  .linguagens {
+    text-align: center;
+  }
+  .linguagens_titulo {
+    padding: .5em 0;
+  font-style: oblique;
+  font-weight: 500;
+}
+.linguagens_paragrafo {
+  padding: .5em 0;
+}
+.header section h2, h3 {
+  margin-bottom: 1em;
+}
+p {
+  margin-bottom: 20px;
+}
+.header > img {
+  clip-path: circle(50% at 50% 50%);
+  height: 250px;
+  width: 250px;
+}
+.header h2 > img {
+  height: 65px;
+  width: 65px;
+}
+
+/* Biografia heder -----------------------------*/
+.biografia_titulo {
+  text-align: center;
+  font-style: oblique;
+  font-weight: 500;
+}
+.biografia_texto {
+  text-align: justify;
+}
