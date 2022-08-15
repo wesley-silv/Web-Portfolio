@@ -45,7 +45,7 @@ img {
   text-decoration: none;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 412px) {
   .header_nav {
     display: flex;
     flex-direction: row;

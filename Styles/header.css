@@ -71,7 +71,7 @@ p {
   text-align: justify;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 412px) {
   /* Header for tablet */
   .header {
     display: flex;
