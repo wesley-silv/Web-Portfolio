@@ -25,6 +25,7 @@ img {
   display: flex;
   gap: 10px;
   align-items: center;
+  flex-wrap: wrap;
 }
 .navigation h2 {
   bottom: 48px;
@@ -42,4 +43,23 @@ img {
 .navigation a {
   color: silver;
   text-decoration: none;
+}
+
+@media screen and (max-width: 400px) {
+  .header_nav {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .socialMedia {
+    display: flex;
+    flex-direction: column;
+  }
+  .navigation {
+    display: flex;
+    flex-direction: column;
+  }
 }
