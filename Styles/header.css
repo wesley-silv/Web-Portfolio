@@ -71,6 +71,23 @@ p {
   text-align: justify;
 }
 
+@media screen and (max-width: 768px) {
+  /* Header for tablet */
+  .header {
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    padding: 1em;
+  }
+  .header_nav, . {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column ;
+    justify-content: justify;
+  }
+
+}
 @media screen and (max-width: 412px) {
   /* Header for tablet */
   .header {

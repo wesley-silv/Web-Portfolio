@@ -45,11 +45,30 @@ img {
   text-decoration: none;
 }
 
+@media screen and (max-width: 768px) {
+  .header_nav {
+    display: flex;
+    flex-direction: row;
+    gap: 10em;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .socialMedia {
+    display: flex;
+    flex-direction: column;
+  }
+  .navigation {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 @media screen and (max-width: 412px) {
   .header_nav {
     display: flex;
     flex-direction: row;
-    gap: 25px;
+    gap: 2em;
     justify-content: center;
     align-items: center;
     
