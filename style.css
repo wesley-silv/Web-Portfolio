@@ -1,5 +1,6 @@
 @import url('Styles/header.css');
 @import url('Styles/navigation.css');
+@import url('Styles/swiper.css');
 * {
   margin: 0;
 }

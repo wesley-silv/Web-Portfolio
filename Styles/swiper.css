@@ -1,0 +1,8 @@
+.swiper__container {
+  background-image: linear-gradient(
+    to right,
+    rgba(34, 60, 74, 0.911),
+    rgba(36, 101, 136, 0.911),
+    rgba(22, 65, 88, 0.911)
+    );
+}
