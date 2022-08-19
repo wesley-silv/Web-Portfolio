@@ -33,7 +33,9 @@ span {
     rgba(22, 65, 88, 0.911)
     );
   }
-
+  #learn-lang {
+    text-decoration: none;
+  }
   .linguagens {
     text-align: center;
   }
@@ -66,6 +68,7 @@ p {
   text-align: center;
   font-style: oblique;
   font-weight: 500;
+  margin: 1em 0;
 }
 .biografia_texto {
   text-align: justify;
