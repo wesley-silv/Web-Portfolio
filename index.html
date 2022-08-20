@@ -4,12 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="reset.css" />
     <title>Portifólio</title>
   </head>
   <body>
-    <h1 id="portifolio">Porti<span>fólio</span></h1>
+    <h1 id="portifolio">Web <span>Portifólio</span></h1>
     <div class="header">
       <img
         src="profile.svg"
@@ -19,34 +23,63 @@
         <h2 class="linguagens_titulo"><span>Wesley Da Silva</span></h2>
         <h3 class="linguagens_subititulo">Desenvolvedor Front-end</h3>
         <p class="linguagens_paragrafo">Minha Stack</p>
-        <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML" title="Html docs" target="_blank" id="learn-lang">
+        <a
+          href="https://developer.mozilla.org/en-US/docs/Learn/HTML"
+          title="Html docs"
+          target="_blank"
+          id="learn-lang"
+        >
           <img src="img-html.svg" alt="Logo html 5" />
         </a>
-        <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS" title="Css docs" target="_blank" id="learn-lang">
+        <a
+          href="https://developer.mozilla.org/en-US/docs/Learn/CSS"
+          title="Css docs"
+          target="_blank"
+          id="learn-lang"
+        >
           <img src="img-css.svg" alt="Logo css 3" />
         </a>
-        <a href="https://developer.mozilla.org/en-US/docs/Learn/JAVASCRIPT" title="JavaScript docs" target="_blank" id="learn-lang">
+        <a
+          href="https://developer.mozilla.org/en-US/docs/Learn/JAVASCRIPT"
+          title="JavaScript docs"
+          target="_blank"
+          id="learn-lang"
+        >
           <img src="img-javascript.svg" alt="Logo Javascript" />
         </a>
-        <a href="https://reactjs.org" title="Reactjs docs" target="_blank" id="learn-lang">
+        <a
+          href="https://reactjs.org"
+          title="Reactjs docs"
+          target="_blank"
+          id="learn-lang"
+        >
           <img src="img-react.svg" alt="logo React" />
         </a>
-        <a href="https://nodejs.org" title="Nodejs docs" target="_blank" id="learn-lang">
+        <a
+          href="https://nodejs.org"
+          title="Nodejs docs"
+          target="_blank"
+          id="learn-lang"
+        >
           <img src="img-nodejs.svg" alt="Logo do Node JS" />
         </a>
       </section>
       <section>
         <h2 class="biografia_titulo"><span>Sobre mim</span></h2>
         <p class="biografia_texto">
-          Natural de São Paulo, cursando Ciência da Computação <br /> Amo a tecnologia e tudo de bom que com ela se pode fazer. <br>
+          Natural de São Paulo, cursando Ciência da Computação <br />
+          Amo a tecnologia e tudo de bom que com ela se pode fazer. <br />
           Desenvolvimento web e mobile com Html, Css, JavaScript, React e Node
           JS. <br />
-          Estudante de programação desde 2021, onde mudei para a área tecnológica,<br />
+          Estudante de programação desde 2021, onde mudei para a área
+          tecnológica,<br />
           dar vida à novos projetos é o que mais desejo fazer. <br />
-          Uso as ferramentas "Clean Code", " Agile Scrum", "Sprint" no Desenvolvimento.
+          Uso as ferramentas "Clean Code", " Agile Scrum", "Sprint" no
+          Desenvolvimento.
           <br />
-          Proatividade, trabalho em equipe e comunicação são pontos fortes em minhas habilidades.
-          <br>
+          Proatividade, trabalho em equipe e comunicação são pontos fortes em
+          minhas habilidades.
+          <br />
           Buscando sempre o melhor caminho para a inovação.
         </p>
       </section>
@@ -86,32 +119,77 @@
         /></a>
       </nav>
       <nav class="navigation">
-        <h2><a href="#portifolio" target="_blank" title="">Home</a></h2>
+        <h2><a href="#portifolio">Início</a></h2>
         <h2><a href="#projetos">Projetos</a></h2>
         <h2><a href="#experiencias">Experiências</a></h2>
         <h2><a href="#certificacao">Certificações</a></h2>
-        <h2><a href="#livros">Estudando</a></h2>
+        <h2><a href="#estudando">Estudando</a></h2>
       </nav>
     </article>
     <main>
       <div class="swiper__container">
-        <h2 id="livros">
-          <span>
-            Livros
-          </span>
-        </h2>
-        
+        <h2 class="swiper__titulo" id="projetos">Projetos</h2>
+        <section>
+          <!-- Slider main container -->
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <img
+                  src="img-alura-book.svg"
+                  alt="imagem do projeto alura book"
+                  class="swiper__img"
+                />
+                <a
+                  href="https://wesley-silv.github.io/Alura-Books-Responsivo/"
+                  target="_blank"
+                  >Alura Book</a
+                >
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="img-card-nlw.svg"
+                  alt="imagem do projeto card nlw"
+                  class="swiper__img"
+                />
+                <a
+                  href="https://wesley-silv.github.io/Cracha-NLW/"
+                  target="_blank"
+                  >Card NLW</a
+                >
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="img-brand-name.svg"
+                  alt="imagem do projeto brand name"
+                  class="swiper__img"
+                />
+                <a
+                  href="https://wesley-silv.github.io/Brand-Name-Project-Person/"
+                  target="_blank"
+                  >Brand Name
+                </a>
+              </div>
+              ...
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+          </div>
+        </section>
       </div>
       <h2 id="projetos">
-        <span>
-          Projetos
-        </span>
+        <span> Projetos </span>
       </h2>
-      
       <h2 id="experiencias">
-        <span>
-          Experiências
-        </span>
+        <span> Experiências </span>
       </h2>
       <h2 id="certificacao">
         <span>Certificações</span>
@@ -119,9 +197,9 @@
       <h2 id="estudando">
         <span>Estudando</span>
       </h2>
-      <article>
-      </article>
+      <article></article>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
   </body>
   <script src="script.js"></script>
 </html>

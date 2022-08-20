@@ -5,4 +5,33 @@
     rgba(36, 101, 136, 0.911),
     rgba(22, 65, 88, 0.911)
     );
+    padding: 2em 4em;
+}
+.swiper__titulo {
+  margin: 1em auto;
+  color: silver;
+  font-size: 28px;
+  font-weight: 500;
+}
+.swiper__img {
+  height: 27em;
+  width: 16em;
+  align-content: center;
+  margin: 1em auto;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 412px) {
+  .swiper-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    justify-content: center;
+    text-align: center;
+  }
+  .swiper-scrollbar{
+    display: none;
+  }
 }
