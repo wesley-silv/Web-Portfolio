@@ -1,6 +1,6 @@
 .header_nav {
   box-sizing: border-box;
-  padding: 0 20px;
+  padding: 0 1em;
   display: flex;
   justify-content: space-between;
   gap: 20px;
@@ -44,11 +44,11 @@ img {
   text-decoration: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 914px) {
   .header_nav {
     display: flex;
     flex-direction: row;
-    gap: 10em;
+    gap: 8em;
     justify-content: center;
     align-items: center;
     padding: 2em 0;
@@ -67,7 +67,7 @@ img {
   }
 }
 
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 415px) {
   .header_nav {
     display: flex;
     flex-direction: row;

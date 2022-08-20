@@ -15,23 +15,19 @@
 }
 .swiper__img {
   height: 27em;
-  width: 16em;
+  width: 15em;
   align-content: center;
-  margin: 1em auto;
+  margin: 0 1em;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
 }
 
-@media screen and (min-width: 412px) {
-  .swiper-wrapper {
-    display: flex;
-    flex-direction: row;
-    gap: 1em;
-    justify-content: center;
+@media screen and (min-width: 400px) {
+  .swiper-container {
     text-align: center;
   }
-  .swiper-scrollbar{
+  .swiper-scrollbar {
     display: none;
   }
 }
