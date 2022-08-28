@@ -1,0 +1,32 @@
+.experiencias {
+  background-color: rgb(15, 47, 65);
+  padding: 1.5em 4em;
+
+  .experiencias_titulo span {
+    color: silver;
+    padding: 2em 0;
+  }
+  .experiencias_subititulo {
+    text-align: center;
+    margin: 2.5em auto;
+    display: flex;
+    justify-content: space-around;
+    color: silver;
+    h2 {
+      margin-bottom: 1.5em;
+      margin: 0 auto;
+      font-style: italic;
+    }
+    p {
+      font-size: 18px;
+      padding: 1.5em .5em;
+    }
+  }
+}
+
+@media screen and (max-width: 412px) {
+  .experiencias_subititulo {
+    display: flex;
+    flex-direction: column;
+  }
+}
