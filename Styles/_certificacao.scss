@@ -1,0 +1,25 @@
+#certificacoes {
+  padding: 2.5em 4em;
+  border-top: solid 5px silver;
+  background-image: linear-gradient(
+    to right,
+    rgba(34, 60, 74, 0.911),
+    rgba(36, 101, 136, 0.911),
+    rgba(22, 65, 88, 0.911)
+    );
+  .certificacoes_titulo span {
+    color: silver;
+  }
+  .certificacoes_img-container {
+    margin: 2em auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+    .certificacoes_img {
+      width: 300px;
+
+    }
+  }
+}

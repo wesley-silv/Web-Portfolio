@@ -5,19 +5,19 @@
     rgba(36, 101, 136, 0.911),
     rgba(22, 65, 88, 0.911)
     );
-    padding: 2em 4em;
+    padding: 2.5em 4em;
 }
 .swiper__titulo {
-  margin: 1em auto;
+  margin-bottom: 1em;
   color: silver;
-  font-size: 28px;
-  font-weight: 500;
+  font-size: 30px;
+  font-weight: bold;
 }
 .swiper__img {
   height: 27em;
   width: 15em;
-  align-content: center;
-  margin: 0 1em;
+  align-items: center;
+  margin: .5em 1em;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
