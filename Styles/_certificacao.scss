@@ -18,8 +18,12 @@
     justify-content: center;
     align-items: center;
     .certificacoes_img {
-      width: 300px;
-
+      width: 310px;
+    }
+    .certificacoes_lista {
+      h4 {
+        color: silver;
+      }
     }
   }
 }

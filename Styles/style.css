@@ -47,7 +47,10 @@
   align-items: center;
 }
 #certificacoes .certificacoes_img-container .certificacoes_img {
-  width: 300px;
+  width: 310px;
+}
+#certificacoes .certificacoes_img-container .certificacoes_lista h4 {
+  color: silver;
 }
 
 #estudando {
